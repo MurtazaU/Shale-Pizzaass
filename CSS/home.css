@@ -1,0 +1,171 @@
+/* Global Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+@media only screen and (max-width: 400px) {
+  .gap {
+    margin-top: 70px;
+  }
+}
+
+/* Services Container */
+.services-container {
+  background: #f3d503;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  color: black;
+}
+.services-icon {
+  font-size: 40px;
+  text-align: center;
+}
+.services {
+  font-size: 25px;
+  text-align: center;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+/* about us */
+.about-us-container {
+  background: #303841;
+  padding: 5px;
+}
+.about-us-text {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  font-size: 18px;
+  margin: 5% 10% 5% 5%;
+  text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+  .about-us-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+/* Video */
+.video {
+  background-color: #303841;
+  margin-top: 15%;
+}
+.video > video {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Pizza Quotes */
+.pizza-quote {
+  background: rgb(186, 0, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(186, 0, 255, 1) 0%,
+    rgba(251, 119, 12, 1) 74%
+  );
+}
+.pizza-quote-text {
+  height: 30vh;
+  text-align: center;
+  margin-top: 10%;
+}
+.pizza-quote-special-text {
+  color: #00df97;
+  background-color: #303841;
+  padding: 2px 7px;
+}
+@media only screen and (max-width: 500px) {
+  .pizza-quote-text {
+    font-size: 14px;
+    height: 20vh;
+  }
+}
+
+/* Pizza-Slices */
+.slice-img {
+  width: 45vw;
+}
+
+.slice-text {
+  margin-top: 30%;
+  margin-left: 15%;
+  text-align: center;
+}
+.slice-text-heading {
+  font-size: 34px;
+  border: 2px solid #00df97;
+  padding: 15px 10px;
+
+  border-radius: 20px;
+  -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0004);
+  line-height: 0.7em;
+  outline: none;
+  font-weight: bold;
+  transition: 0.5s;
+  overflow: hidden;
+  animation: border-animate 5s linear infinite;
+  text-transform: capitalize;
+}
+.slice-text-heading:hover {
+  background: #303841;
+  color: #00df97;
+}
+@keyframes border-animate {
+  0%,
+  10%,
+  20%,
+  40%,
+  60%,
+  80%,
+  90% {
+    border: 4px solid;
+  }
+  50% {
+    border: #000;
+  }
+  100% {
+    border: 2px solid;
+  }
+}
+
+.slice-text-extra-heading {
+  color: #00df97;
+}
+.slice-text-paragraph {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.slice-btn {
+  border-radius: 30px;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: white;
+}
+.slice-btn > a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 990px) {
+  .slice-img {
+    width: 80vw;
+  }
+  .slice-text {
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .slice-img {
+    width: 90vw;
+  }
+  .slice-text {
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+}

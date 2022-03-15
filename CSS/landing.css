@@ -1,0 +1,151 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.eyes {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 60px;
+  height: 50px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid #ffba08;
+}
+
+.shut-eye {
+  width: 300px;
+  height: 160px;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.shut-eye-span {
+  display: block;
+  width: 100%;
+  height: 39%;
+  background: #ff6b6b;
+  border-radius: 0 0 60% 60%;
+  animation: blink 0.4s 1s;
+  animation: blink 7s infinite 1s;
+}
+@keyframes blink {
+  0% {
+    height: 39%;
+  }
+  25%,
+  30% {
+    height: 100%;
+  }
+  32% {
+    height: 70%;
+  }
+  35% {
+    height: 50%;
+  }
+  40% {
+    height: 39%;
+  }
+}
+
+.landing {
+  /* The image used */
+  background-image: url("../Imgs/Home-Page-Imgs/Home-Landing-Bg.png");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Landing Btn */
+.landing-btn {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  color: white;
+  border: 2px solid #d72323;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background 0.5s linear;
+  font-size: 18px;
+  font-weight: 600;
+}
+.landing-btn:hover {
+  background: #d72323;
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .eye {
+    width: 50px;
+    height: 40px;
+  }
+  .ball {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 1001px) {
+  .eyes {
+    display: none;
+  }
+  .landing {
+    background: url("../Imgs/Home-Page-Imgs/Home-Landing-Bg-Mobile.png");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .landing-btn {
+    top: 85%;
+    left: 40%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .landing-btn {
+    top: 85%;
+    left: 42%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .landing-btn {
+    top: 85%;
+    left: 40%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .landing-btn {
+    top: 85%;
+    left: 35%;
+  }
+}

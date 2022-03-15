@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #303841;
+  color: white;
+}
+
+.main-heading {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+li {
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.country {
+  /* The image used */
+  background-color: lightslategray;
+  /* Full height */
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-blend-mode: darken;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

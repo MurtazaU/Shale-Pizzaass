@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #303841;
+  color: white;
+}
+
+.jumbotron {
+  background-color: #3e454d;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+form > input {
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+form > textarea {
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
+form > button {
+  padding: 15px 30px;
+  border-radius: 20px;
+}

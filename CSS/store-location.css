@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Landing */
+
+.location-landing-background {
+  background: url("/Imgs/Store-Location/Store-Location-Landing-Bg.jpg");
+  height: 80vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.location-landing-background-overlay {
+  background-color: black;
+  opacity: 0.7;
+  height: 80vh;
+}
+
+.landing-text {
+  margin: auto;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding: 15% 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  .landing-text {
+    padding: 30% 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-text {
+    padding: 50% 5%;
+  }
+}

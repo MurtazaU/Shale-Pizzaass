@@ -1,0 +1,11 @@
+.footer-bg {
+  background-color: #303841;
+  color: white;
+}
+.footer-bg-border {
+  border-top: 2px solid black;
+}
+.footer-bg > div > div > div > div > p > a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+.content {
+  height: 100%;
+  margin: 0;
+  color: white;
+  /* The image used */
+  background-image: url("../Imgs/Contact-Page/contact-landing-img.jpg");
+  /* Full height */
+  height: 800px;
+  width: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  transition: 0.3s all ease;
+}
+
+.text-black {
+  color: #000;
+}
+
+.content {
+  padding: 7rem 0;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.btn {
+  height: 45px;
+}
+
+.btn {
+  font-size: 11px;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  border-radius: 30px !important;
+}
+
+.contact-wrap {
+  background: #fff;
+}
+.contact-wrap .col-form-label {
+  color: #b3b3b3;
+  margin: 0 0 10px 0;
+}

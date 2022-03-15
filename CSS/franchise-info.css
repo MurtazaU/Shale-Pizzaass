@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #303841;
+  color: white;
+}
+/* Landing */
+.landing-img {
+  /* The image used */
+  background-image: url("../Imgs/Franchise-Info/pexels-negative-space-34650.webp");
+  /* Full height */
+  height: 50vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Main Heading CSS */
+.main-heading {
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 70px;
+
+  position: relative;
+}
+/* Main Heading UnderLine Animation */
+.main-heading::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: crimson;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+/* Franchise Card CSS */
+.franchise {
+  border: 0.5px solid #515457;
+  transition: box-shadow 0.5s linear;
+  margin-top: 50px;
+}
+.franchise:hover {
+  box-shadow: 3px 3px 3px 3px #515457;
+}
+
+.franchise-img {
+  margin-bottom: 40px;
+  width: 40vw;
+  height: 400px;
+  height: auto;
+}
