@@ -1,0 +1,66 @@
+.card-icon:hover {
+  color: red;
+}
+.card-icon {
+  transition: color 0.5s ease-in-out;
+}
+.card-eye:hover {
+  color: rgb(53, 53, 167);
+}
+.card-eye {
+  transition: color 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: #f3d503;
+}
+.btn {
+  visibility: visible;
+  background-color: #d72323;
+  transition: background-color 0.5s ease-in-out;
+}
+.card {
+  width: 23rem;
+  box-shadow: none;
+  transition: background-color 0.5s ease-in-out;
+}
+.card:hover {
+  box-shadow: 5px 5px 5px 10px grey;
+  transform: scale(1.05);
+}
+.footer {
+  visibility: hidden;
+}
+.card:hover .footer {
+  visibility: visible;
+  color: grey;
+  font-size: 30px;
+}
+.fa-cart-arrow-down:hover {
+  color: orange;
+}
+.fa-cart-arrow-down {
+  transition: color 0.5s ease-in-out;
+}
+h1 {
+  color: #f3d503;
+  margin-bottom: 20px;
+}
+body {
+  background-color: #303841;
+}
+span {
+  color: #d72323;
+}
+
+#preloader {
+  background: #000 url(./images/pizza\ 2.gif) no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.footer i{
+  float: right;
+
+}
